@@ -65,7 +65,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1190px) {
+/*@media (min-width: 768px) and (max-width: 1190px) {
     .resumeLayout {
         margin-left: 20%;
         margin-right: 20%;
@@ -130,9 +130,15 @@
             margin-right: 10%;
         }
     }
+}*/
+
+@media (min-width: 700px) {
+ .resumeLayout {
+   width: 626px;
+   margin-left: auto;
+   margin-right: auto;
+ }
 }
-
-
 
 @media (min-width: 320px) and (max-width: 767px) {
     .resumeLayout div.header img {
