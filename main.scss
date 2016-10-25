@@ -19,9 +19,10 @@ body {
 }
 
 .resumeLayout {
+    font-family: Roleta;
     line-height: 1.5em;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 22%;
+    margin-right: 22%;
 
     .h1Properties {
         font-family: Adam;
@@ -62,7 +63,6 @@ body {
         }
 
         p {
-            font-family: Recoleta;
             color: #d61d1d;
             float: left;
             font-size: 1.15em;
@@ -78,7 +78,6 @@ body {
     }
 
     .skills {
-        font-family: Roleta;
 
         h1 {
             @extend .h1Properties;
@@ -108,7 +107,7 @@ body {
     }
 
     .experience {
-        font-family: Roleta;
+
 
         h1 {
             @extend .h1Properties;
@@ -120,20 +119,44 @@ body {
             color: orange;
         }
 
+        details {
+
+            summary {
+                cursor: pointer;
+                color: #c54f4f;
+
+
+            }
+
+            li {
+                font-size: .8em;
+                font-family: "Courier New", Courier, monospace;
+                font-style: oblique;
+            }
+
+        }
+
+
+
         summary::-webkit-details-marker {
             display: none;
         }
 
         summary:before {
+            display: inline-block;
             content: "+";
             font-weight: bold;
-            margin: 3px;
+            width: 18px;
+            height: 18px;
+            margin-right: 8px;
             cursor: pointer;
         }
+
+
+
     }
 
     .education {
-        font-family: Roleta;
 
         h1 {
             @extend .h1Properties;

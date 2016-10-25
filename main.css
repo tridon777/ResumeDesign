@@ -70,11 +70,12 @@ body {
   font-size: 20px; }
 
 .resumeLayout {
+  font-family: Roleta;
   line-height: 1.5em;
-  margin-left: 25%;
-  margin-right: 25%;
-  font-family: Adam; }
+  margin-left: 22%;
+  margin-right: 22%; }
   .resumeLayout .h1Properties, .resumeLayout div.header h1, .resumeLayout .skills h1, .resumeLayout .experience h1, .resumeLayout .education h1 {
+    font-family: Adam;
     color: #3945e0;
     float: left;
     font-size: 1.75em;
@@ -99,7 +100,6 @@ body {
     .resumeLayout div.header h1 {
       margin-top: 1em; }
     .resumeLayout div.header p {
-      font-family: Recoleta;
       color: #d61d1d;
       float: left;
       font-size: 1.15em;
@@ -108,43 +108,47 @@ body {
       margin-bottom: 0px; }
     .resumeLayout div.header h1, .resumeLayout div.header p {
       width: 100%; }
-  .resumeLayout .skills {
-    font-family: Roleta; }
-    .resumeLayout .skills h1 {
-      float: none; }
-    .resumeLayout .skills img {
-      display: block;
-      height: 4.5rem;
-      max-width: 3rem;
-      width: auto;
-      margin: auto; }
-    .resumeLayout .skills ul {
-      margin: 0;
-      padding: 0;
-      list-style-type: none;
-      white-space: nowrap; }
-      .resumeLayout .skills ul li {
-        display: inline-block;
-        margin: .5rem 1rem;
-        vertical-align: middle; }
-  .resumeLayout .experience {
-    font-family: Roleta; }
-    .resumeLayout .experience h1 {
-      float: none; }
-    .resumeLayout .experience small i {
-      margin-bottom: 1em;
-      color: orange; }
-    .resumeLayout .experience summary::-webkit-details-marker {
-      display: none; }
-    .resumeLayout .experience summary:before {
-      content: "+";
-      font-weight: bold;
-      margin: 3px;
-      cursor: pointer; }
-  .resumeLayout .education {
-    font-family: Roleta; }
-    .resumeLayout .education h1 {
-      float: none; }
+  .resumeLayout .skills h1 {
+    float: none; }
+  .resumeLayout .skills img {
+    display: block;
+    height: 4.5rem;
+    max-width: 3rem;
+    width: auto;
+    margin: auto; }
+  .resumeLayout .skills ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    white-space: nowrap; }
+    .resumeLayout .skills ul li {
+      display: inline-block;
+      margin: .5rem 1rem;
+      vertical-align: middle; }
+  .resumeLayout .experience h1 {
+    float: none; }
+  .resumeLayout .experience small i {
+    margin-bottom: 1em;
+    color: orange; }
+  .resumeLayout .experience details summary {
+    cursor: pointer;
+    color: #c54f4f; }
+  .resumeLayout .experience details li {
+    font-size: .8em;
+    font-family: "Courier New", Courier, monospace;
+    font-style: oblique; }
+  .resumeLayout .experience summary::-webkit-details-marker {
+    display: none; }
+  .resumeLayout .experience summary:before {
+    display: inline-block;
+    content: "+";
+    font-weight: bold;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    cursor: pointer; }
+  .resumeLayout .education h1 {
+    float: none; }
 
 @media (max-width: 767px) {
   .resumeLayout {

@@ -1,11 +1,11 @@
 {
-  "name": "newsplash",
+  "name": "resume",
   "version": "1.0.0",
-  "main": "server.js",
+  "main":"na",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node-sass main.scss main.css"
   },
-  "author": "",
+  "author": "Paul Searcy",
   "license": "ISC",
   "description": ""
 }
